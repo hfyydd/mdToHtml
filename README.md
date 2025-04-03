@@ -152,7 +152,7 @@ md2html.convertSingle('README.md', { theme: 'wechat' });
 
 ## 图片示例
 
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
+![截图](assets/截图.png)
 
 ## 许可证
 
