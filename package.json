@@ -1,0 +1,27 @@
+{
+  "name": "md-to-html",
+  "version": "1.0.0",
+  "description": "将 Markdown 文件转换为适合公众号的 HTML 格式",
+  "main": "src/index.js",
+  "bin": {
+    "md-to-html": "bin/md-to-html.js"
+  },
+  "scripts": {
+    "start": "node bin/md-to-html.js"
+  },
+  "keywords": [
+    "markdown",
+    "html",
+    "converter",
+    "wechat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^15.0.0",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "figlet": "^1.7.0"
+  }
+} 
